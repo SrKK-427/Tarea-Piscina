@@ -1,47 +1,61 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html> <!-- Declaración del tipo de documento HTML5 -->
+<html lang="es"> <!-- Idioma principal del sitio: español -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piscinas El Paraíso</title>
- <link rel="stylesheet" href="style.css">
-
+    <meta charset="UTF-8"> <!-- Codificación de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Diseño responsive -->
+    <title>Piscinas El Paraíso</title> <!-- Título de la pestaña del navegador -->
+    <link rel="stylesheet" href="style.css"> <!-- Enlace al archivo de estilos CSS -->
 </head>
 <body>
+
+    <!-- Encabezado con título y lema -->
     <header>
         <h1>Piscinas El Paraíso</h1>
         <p>Tu lugar ideal para relajarte y refrescarte</p>
     </header>
+
+    <!-- Menú de navegación con anclas internas -->
     <nav>
         <a href="#catalogo">Catálogo</a>
         <a href="#contacto">Contacto</a>
     </nav>
 
+    <!-- Contenido principal -->
     <div class="contenido">
+
+        <!-- Sección de catálogo -->
         <section id="catalogo">
             <h2>Catálogo de Piscinas</h2>
             <div class="catalogo">
+
+                <!-- Producto 1 -->
                 <div class="producto">
-                    <img src="https://via.placeholder.com/250x150" alt="Piscina redonda">
+                    <img src="./img/Piscina2.jpg" alt="Piscina redonda">
                     <h3>Piscina Redonda 3m</h3>
-                    <p>Ideal para patios pequeños. Fácil instalación en menos de 3 dias</p>
+                    <p>Ideal para patios pequeños. Fácil instalación en menos de 3 días</p>
                     <strong>€499</strong>
                 </div>
+
+                <!-- Producto 2 -->
                 <div class="producto">
-                    <img src="https://via.placeholder.com/250x150" alt="Piscina rectangular">
+                    <img src="./img/Piscina1.jpg" alt="Piscina rectangular">
                     <h3>Piscina Rectangular 5x3m</h3>
                     <p>Perfecta para reuniones familiares. Estructura reforzada.</p>
                     <strong>€1.299</strong>
                 </div>
+
+                <!-- Producto 3 -->
                 <div class="producto">
-                    <img src="https://via.placeholder.com/250x150" alt="Piscina de lujo">
+                    <img src="./img/Piscina3.jpg" alt="Piscina de lujo">
                     <h3>Piscina de Lujo Infinity</h3>
                     <p>Diseño moderno y elegante. Sistema de filtrado premium.</p>
                     <strong>€5.999</strong>
                 </div>
+
             </div>
         </section>
 
+        <!-- Sección de contacto con formulario -->
         <section id="contacto">
             <h2>Contáctanos</h2>
             <p>¿Tienes preguntas o deseas un presupuesto personalizado? Escríbenos:</p>
@@ -55,10 +69,13 @@
                 <button type="submit">Enviar</button>
             </form>
         </section>
+
     </div>
 
+    <!-- Pie de página fijo -->
     <footer>
         &copy; 2025 Piscinas El Paraíso. Todos los derechos reservados.
     </footer>
+
 </body>
 </html>
